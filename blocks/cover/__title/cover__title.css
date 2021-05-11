@@ -3,5 +3,14 @@
   max-width: 560px;
   font-size: 72px;
   line-height: 1.055;
+  font-weight: 900;
   margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__title {
+    width: calc(100% - 16px * 2);
+    font-size: 32px;
+    line-height: calc(35 / 32);
+  }
 }

@@ -5,3 +5,12 @@
   max-width: 360px;
   margin: 32px 0 0 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__subtitle {
+    width: calc(100% - 16px * 2);
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    margin: 16px 0 0 0;
+  }
+}

@@ -19,3 +19,15 @@
     grid-gap: 48px 28px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'title'
+    'web'
+    'image'
+    'paragraph-list';
+    grid-gap: 32px 0;
+  }
+}
