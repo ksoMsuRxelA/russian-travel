@@ -2,6 +2,15 @@
   width: 100%;
   margin: 0;
   font-size: 72px;
-  line-height: 1.058;
-  font-weight: bold;
+  line-height: 1.06;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
 }
