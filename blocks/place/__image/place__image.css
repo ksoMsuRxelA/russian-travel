@@ -1,9 +1,9 @@
 .place__image {
   /*padding-bottom: 100%;*/
+  width: 100%;
   min-height: 460px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
